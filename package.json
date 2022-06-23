@@ -1,0 +1,23 @@
+{
+  "name": "nodejsscrapping",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "une application qui fait du scrapping avec nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run start",
+    "live": "nodemon index"
+  },
+  "author": "yveslioneldiomande",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.11",
+    "express": "^4.18.1",
+    "express-async-handler": "^1.2.0",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.16",
+    "request-promise": "^4.2.6",
+    "sequelize": "^6.20.1",
+    "xml-js": "^1.6.11"
+  }
+}

@@ -1,0 +1,23 @@
+CREATE DATABASE webScrappingDB;
+
+CREATE TABLE Imports
+(
+    id INT PRIMARY KEY NOT NULL,
+    importDate DATE,
+    rawContent  TEXT,
+ 
+);
+
+
+CREATE TABLE Articles
+(
+    id INT PRIMARY KEY NOT NULL,
+    externalId VARCHAR(500) UNIQUE,
+     importDate  DATE,
+    title TEXT (500),
+    description TEXT (500),
+    publicationDate   DATE,
+    link  TEXT(500) ,
+    mainPicture  TEXT(500),
+)
+
